@@ -19,6 +19,7 @@ export default function Button({
   displayType,
   text,
   to,
+  onClick,
 }: ButtonProps) {
   const colorStyle = styles[color];
   const sizeStyle = styles[size];
@@ -27,7 +28,7 @@ export default function Button({
     ' '
   );
   const button = (
-    <button className={buttonClass} type={type}>
+    <button className={buttonClass} type={type} onClick={onClick}>
       <p className={styles.inner}>
         {' '}
         <span>{text}</span>
