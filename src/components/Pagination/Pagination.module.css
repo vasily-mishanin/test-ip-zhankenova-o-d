@@ -1,0 +1,17 @@
+.pagination {
+  padding: 1rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 400px;
+}
+.current {
+  width: 40px;
+  background-color: var(--color-success);
+  border: none;
+  outline: none;
+  text-align: center;
+  padding: 0.5rem;
+}
