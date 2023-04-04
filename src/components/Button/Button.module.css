@@ -5,6 +5,11 @@
   border-radius: 0.25rem;
 }
 
+.btn:hover,
+.link:hover {
+  cursor: pointer;
+}
+
 .link {
   padding: 1rem;
   outline: none;

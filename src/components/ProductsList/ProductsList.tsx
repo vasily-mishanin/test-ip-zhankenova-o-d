@@ -7,7 +7,6 @@ type ProductsListProps = {
 };
 
 export default function ProductsList({ products }: ProductsListProps) {
-  console.log(products);
   return (
     <ul className={styles.list}>
       {products.map((product) => {

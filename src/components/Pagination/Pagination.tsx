@@ -1,14 +1,21 @@
 import styles from './Pagination.module.css';
 import Button from '../Button/Button';
-import { useState } from 'react';
+import { FormEvent, useState } from 'react';
 
 type PaginationProps = {
+  currentPageNumber: number;
   onPrev: () => void;
   onNext: () => void;
 };
 
-export default function Pagination({ onPrev, onNext }: PaginationProps) {
-  const [currenPage, setCurrenPage] = useState(0);
+export default function Pagination({
+  onNext,
+  onPrev,
+  currentPageNumber,
+}: PaginationProps) {
+  const [currenPage, setCurrenPage] = useState(currentPageNumber);
+
+  const handleInputChange = (e: React.FormEvent<HTMLInputElement>) => {};
 
   return (
     <div className={styles.pagination}>
@@ -26,7 +33,8 @@ export default function Pagination({ onPrev, onNext }: PaginationProps) {
         type='text'
         name='currenPage'
         id='currenPage'
-        value={currenPage}
+        value={currentPageNumber}
+        onChange={handleInputChange}
       />
       <Button
         kind='BUTTON'
