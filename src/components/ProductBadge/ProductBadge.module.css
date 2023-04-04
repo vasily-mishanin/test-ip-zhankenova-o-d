@@ -1,0 +1,24 @@
+.badge {
+  padding: 0.5rem 1rem;
+  border: none;
+  color: black;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 1rem;
+}
+
+.new {
+  background-color: green;
+  color: white;
+}
+
+.top {
+  background-color: gold;
+  color: black;
+}
+
+.hot {
+  background-color: salmon;
+  color: gold;
+}

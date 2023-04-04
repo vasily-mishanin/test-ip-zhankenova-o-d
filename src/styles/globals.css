@@ -7,6 +7,11 @@
   --foreground-rgb: rgb(0, 0, 0);
   --background-start-rgb: rgb(221, 255, 187);
   --background-end-rgb: rgb(199, 233, 176);
+  --color-green-1: #408e91;
+  --color-green-dark: #245953;
+  --color-danger: #e21818;
+  --color-success: #82cd47;
+  --color-default: #e4e4e4;
 }
 
 * {
@@ -39,4 +44,9 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+ol,
+ul {
+  list-style: none;
 }

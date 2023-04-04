@@ -1,0 +1,58 @@
+.btn {
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+}
+
+.link {
+  padding: 1rem;
+  outline: none;
+  text-decoration: none;
+}
+
+.lg {
+  width: 100px;
+  height: 40px;
+}
+
+.md {
+  width: 60px;
+  height: 30px;
+}
+
+.default {
+  background-color: var(--color-default);
+  color: var(--color-green-dark);
+  border: 1px solid var(--color-green-dark);
+}
+
+.success {
+  background-color: var(--color-success);
+  color: white;
+}
+
+.danger {
+  background-color: var(--color-danger);
+  color: white;
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,12 @@
+.list {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2rem;
+  justify-content: center;
+
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 1rem 0.5rem;
+}
+
+.list__item {
+}
